@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getMovies } from '../../utils/utilities';
 import './style.css';
 import ImageContainer from '../../atoms/ImageContainer';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const IMAGE_BASE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
 const GetMovies = () => {
   const [movies, setMovies] = useState([]);

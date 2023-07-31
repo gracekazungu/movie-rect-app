@@ -2,9 +2,9 @@ import ImageContainer from "../../atoms/ImageContainer";
 import React, { useState} from "react";
 const IMAGE_BASE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
 const MovieDetails=() => {
-const [search,setSearch]=useState[null]
-const[movies,setMovies]=useState[null]
-const[loading,setLoading]=useState[null]
+const [search]=useState[null]
+const[movies]=useState[null]
+const[loading]=useState[null]
   const [selectedMovie, setSelectedMovie] = useState(null);
   const filterMovies = movies.filter(movie => movie.title.toLowerCase().includes(search.toLowerCase()));
   const handleMovieClick = (movie) => {

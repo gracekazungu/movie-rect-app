@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css"
 import { searchMovies } from "../../utils/utilities";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [searchValue, setSearchValue] = useState("");

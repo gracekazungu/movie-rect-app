@@ -1,5 +1,5 @@
 import GetMovies from './components/GetMovies';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import MovieDetails from './components/MovieDetails'
